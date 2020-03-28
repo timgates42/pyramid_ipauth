@@ -35,7 +35,7 @@ You can then simply include the pyramid_ipauth package into your configurator::
 It will detect the ipauth settings and construct an appropriate policy.
 
 Note that this package only supports matching against a single set of IP
-addresss.  If you need to assign different credentials to different sets
+addresses.  If you need to assign different credentials to different sets
 of IP addresses, you can use the pyramid_multiauth package in conjunction
 with pyramid_ipauth:
 
